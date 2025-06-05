@@ -4,10 +4,9 @@ Code to reproduce results in : ...
 
 Usage:
 
-Each individual EDFA model is found in the notebooks. To evaluate cascaded results, run EDFA6_model.ipynb with the uncertain flag to True for NIGP and False for standard GP modelling.
+The code to train each individual EDFA model can be found in GP_functions for GP and NIGP, and ANN_Functions for the ANN approaches.
 
-All notebooks can be run sequentially from 1 to 6 with the Orchestration.py file.
-
+To run model training, execute functions located in either ANN_modelTraining.py or GP_modelTraining.py where the uncertain flag is used to differentiate between GP and NIGP cascade.
 
 
 Folders:
@@ -15,7 +14,5 @@ Folders:
 CustomKernels - custom Gpytorch kernels for allowing uncertainty as an input into the model
 
 data - input, output, config, and EDFA settings for each EDFA and fibre in the cascade
-
-Functions - helper functions to load pre-trained models and train new ones
 
 SavedModels - saved config for trained models used to cascade through previous models
