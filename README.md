@@ -1,4 +1,4 @@
-Code to reproduce results in : ...
+Code to reproduce results from: C. Harvey and S. J. Savory, "Optical Power Spectrum Prediction Using Cascaded Learning With Uncertainty Propagating Noisy Input Gaussian Processes," in Journal of Lightwave Technology, vol. 43, no. 16, pp. 7639-7649, 15 Aug.15, 2025, doi: 10.1109/JLT.2025.3580113.
 
 
 
